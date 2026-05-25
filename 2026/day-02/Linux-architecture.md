@@ -6,7 +6,7 @@
  - Hardware
  - Utilities
    
- ![Image]( https://github.com/pawarvidya/90DaysOfDevOps/blob/3db1ae5757d4291e1f2597bfbb6441a0095fab14/2026/day-02/Linux%20architecture%20diagram.webp)
+   ![Image]( https://github.com/pawarvidya/90DaysOfDevOps/blob/3db1ae5757d4291e1f2597bfbb6441a0095fab14/2026/day-02/Linux%20architecture%20diagram.webp)
 
 
 
