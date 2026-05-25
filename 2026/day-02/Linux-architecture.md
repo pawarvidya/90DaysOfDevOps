@@ -5,6 +5,9 @@
  - Kernel
  - Hardware
  - Utilities
+ ![Image]( Linux architecture diagram.webp)
+
+
 
 
 
