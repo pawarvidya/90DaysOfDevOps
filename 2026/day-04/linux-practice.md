@@ -8,9 +8,12 @@ Service selected is a SSH for practice
 # Service Commands
 - systemctl status ssh: Check SSH Service Status and ts verify ssh is running successfully.
 - systemctl list-units --type=service : It lists active services.
+- ![Linux Service](linux-service.png)
 # Log Commands 
  - journalctl -u ssh -n 10 : It is used to view logs of ssh. The logs confirm that the SSH service is listening on port 22 and accepting connections.
+ - ![Linux Logs](linux-logs.png)
 - tail -n 20 /var/log/syslog : To view recent system logs. Its includes successful ssh authentication
+- ![Linux Log](linux-log.png)
  # Mini Troubleshooting Steps 
  - Suppose issue is unable to connect ssh then
  - Verify process by using pgrep sshd it will show PID if PId is not displayed means ssh is not running
