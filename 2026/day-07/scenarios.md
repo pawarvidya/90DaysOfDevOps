@@ -46,3 +46,13 @@ What commands would you use to fix this?
 - Step 1 : Check permissions
   Command : ls -l /home/user/backup.sh
   Why : No x means not executable. Means there is no executing permission.
+- Step 2 : Add execute permission
+  Command : chmod +x /home/user/backup.sh
+  Why : Makes the script executable.
+- Step 3 : Verify permissions
+  Command : ls -l /home/user/backup.sh
+  Why : Confirm x permission is present.
+- Step 4 : Run the script
+  Command : ./backup.sh
+  Why : Verify the issue is fixed.
+  
