@@ -18,4 +18,20 @@ Write at least 4 commands in order.
 - Step 5: Try starting the service manually
   Command: sudo systemctl start myapp
   Why : heck whether it starts successfully or throws an error.
+# Scenarrio 2 : High CPU Usage
+ Your manager reports that the application server is slow.
+You SSH into the server. What commands would you run to identify
+which process is using high CPU?
+- Step 1 : View live CPU usage
+  Command: top
+  Why: Shows processes consuming CPU in real time.
+- Step 2 : Sort processes by CPU usage
+  Command: ps aux --sort=-%cpu | head -10
+  Why: Displays top 10 CPU-consuming processes.
+- Step 3 : Get details of the process
+  Command: ps -fp <PID>
+  Why: Shows command, owner, and process information.
+- Step 4 : Check if process is still consuming CPU
+  Command : top -p <PID>
+  Why : Monitor a specific process.
   
