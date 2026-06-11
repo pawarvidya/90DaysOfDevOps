@@ -23,4 +23,4 @@
   I would use this when disk space is running low and i want to identify large  log files.
 - ls -la ~  : Lists all files, including hidden files, in the current user's home directory. I observed that common files like .profile, .bashrc and directory .ssh .
  I would use this when  I need to view .user files and shell configuration files.
-- ![linux hierarchy](screenshots/linux-hierarchy.png)
+- ![linux hierarchy](screenshot/linux-hierarchy.png)
