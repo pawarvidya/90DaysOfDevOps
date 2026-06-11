@@ -38,3 +38,11 @@ What commands would you use?
 - Step 3 : View all logs
   Command : journalctl -u docker
   Why : Similar to tail -f; shows new logs as they arrive
+  # Scenario 4: File Permissions Issue
+  A script at /home/user/backup.sh is not executing.
+When you run it: ./backup.sh
+You get: "Permission denied"
+What commands would you use to fix this?
+- Step 1 : Check permissions
+  Command : ls -l /home/user/backup.sh
+  Why : No x means not executable. Means there is no executing permission.
