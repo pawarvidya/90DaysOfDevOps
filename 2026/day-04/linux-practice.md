@@ -3,6 +3,7 @@ Service selected is a SSH for practice
 - ps: it shows running process in linux
 - ps -ef | grep ssh : it is used to check running processes related to ssh. The sshd process is running which indicates ssh is running
 - pgrep sshd: Find process ID of ssh .
+- screenshots/linux.process and service.png
 # Service Commands
 - systemctl status ssh: Check SSH Service Status and ts verify ssh is running successfully.
 - systemctl list-units --type=service : It lists active services.
