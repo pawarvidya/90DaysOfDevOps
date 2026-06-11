@@ -7,4 +7,8 @@
 -  tail -n 2 notes.txt : Shows the last 2 lines of the file.
 
 
+-![read and write practice](screenshots/read-and-write-practice.png)
+
+
+
 
