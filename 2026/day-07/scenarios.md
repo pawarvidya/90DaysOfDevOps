@@ -18,14 +18,14 @@ Write at least 4 commands in order.
 - Step 5: Try starting the service manually
   Command: sudo systemctl start myapp
   Why : heck whether it starts successfully or throws an error.
-# Scenarrio 2 : High CPU Usage
+# Scenario 2 : High CPU Usage
  Your manager reports that the application server is slow.
 You SSH into the server. What commands would you run to identify
 which process is using high CPU?
 - Step 1 : View live CPU usage
   Command: top
   Why: Shows processes consuming CPU in real time.
-# Scenarrio 3 :  Finding Service Logs
+# Scenario 3 :  Finding Service Logs
  A developer asks: "Where are the logs for the 'docker' service?"
 The service is managed by systemd.
 What commands would you use?
