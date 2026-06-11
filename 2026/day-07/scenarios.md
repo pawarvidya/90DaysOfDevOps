@@ -25,13 +25,14 @@ which process is using high CPU?
 - Step 1 : View live CPU usage
   Command: top
   Why: Shows processes consuming CPU in real time.
-- Step 2 : Sort processes by CPU usage
-  Command: ps aux --sort=-%cpu | head -10
-  Why: Displays top 10 CPU-consuming processes.
-- Step 3 : Get details of the process
-  Command: ps -fp <PID>
-  Why: Shows command, owner, and process information.
-- Step 4 : Check if process is still consuming CPU
-  Command : top -p <PID>
-  Why : Monitor a specific process.
-  
+# Scenarrio 3 :  Finding Service Logs
+ A developer asks: "Where are the logs for the 'docker' service?"
+The service is managed by systemd.
+What commands would you use?
+- Step 1 : Check service status
+  Command : systemctl status docker
+  Why : Confirm the service exists and is running.
+- Step 2 : View recent logs
+  Command : journalctl -u docker -n 50
+  Why : Shows that last 50 log entries
+- Step 3 : View all logs
