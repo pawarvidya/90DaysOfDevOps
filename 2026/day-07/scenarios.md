@@ -38,7 +38,7 @@ What commands would you use?
 - Step 3 : View all logs
   Command : journalctl -u docker
   Why : Similar to tail -f; shows new logs as they arrive
-  # Scenario 4: File Permissions Issue
+# Scenario 4: File Permissions Issue
   A script at /home/user/backup.sh is not executing.
 When you run it: ./backup.sh
 You get: "Permission denied"
