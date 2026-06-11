@@ -36,3 +36,5 @@ What commands would you use?
   Command : journalctl -u docker -n 50
   Why : Shows that last 50 log entries
 - Step 3 : View all logs
+  Command : journalctl -u docker
+  Why : Similar to tail -f; shows new logs as they arrive
