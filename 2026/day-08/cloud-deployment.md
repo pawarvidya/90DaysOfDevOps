@@ -1,6 +1,6 @@
 # Setup of Cloud Server, Docker, Nginx, Web deployment
 - Objective : Deploy a cloud server, connect using SSH, install Nginx, verify web access, and collect logs.
-- Part 1 : Launch  AWS EC2 instance.
+# Part 1 : Launch  AWS EC2 instance.
 - Step 1 : Create AWS EC2 instance
 - Details for AWS EC2
   - Cloud Provider : AWS
@@ -30,7 +30,7 @@
   - Command: systemctl status nginx
 - Check Version :
   - Command:  nginx -v
-# Verify web access
+#  Part 3: Verify web access
 - Opened Browser
   - http://<public-ip>
   Nginx welcome page displayed successfully.
