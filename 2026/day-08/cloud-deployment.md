@@ -3,13 +3,13 @@
 - Part 1 : Launch  AWS EC2 instance.
 - Step 1 : Create AWS EC2 instance
 - Details for AWS EC2
-  Cloud Provider : AWS
-  OS: Ubuntu
-  Instance Type: t3.micro
+  Cloud Provider : AWS,
+  OS: Ubuntu,
+  Instance Type: t3.micro,
   Region : Oregon
 - Created an Ubuntu EC2 instance and configured the security group.
   Allowed Ports in Security Group :
-  SSH 22
+  SSH 22,
   HTTP 80
 
 # Connect via SSH :
@@ -19,16 +19,16 @@
 
 # Part 2: Install Docker & Nginx
 - Update Sysyem:
-  Command: sudo apt-get update
+ - Command: sudo apt-get update
 - Install Docker:
-  Commnad: sudo apt-get install docker.io -y
+  - Commnad: sudo apt-get install docker.io -y
 - Verify:
-  Command: docker --version
+  - Command: docker --version
 - Install nginx:
-  Commnad: sudo apt-get nginx -y
+  - Commnad: sudo apt-get nginx -y
 - Verify:
-  Command: systemctl status nginx
+  - Command: systemctl status nginx
 - Check Version :
-  Command:  nginx -v
+  - Command:  nginx -v
   
   
