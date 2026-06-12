@@ -11,6 +11,8 @@
   Allowed Ports in Security Group :
   - SSH 22
   - HTTP 80
+  - ![AWS EC2 Instance](screenshots/AWS-EC2-Instance.png)
+    
 
 # Connect via SSH :
 - Commands used :
@@ -34,7 +36,7 @@
 - Opened Browser
   - http://<public-ip>
   Nginx welcome page displayed successfully.
-
+- ![nginx welcome page](screenshots/nginx-welcome-page.png)
 # Part 4 : Extract Nginx log
 - View logs:
   - sudo tail -n 20 /var/log/nginx/access.log
@@ -44,6 +46,7 @@
   - cat ~/nginx-logs.txt
 -  Download Log File: 
   - scp -i my-key.pem ubuntu@<public-ip>:~/nginx-logs.txt
+  - ![nginx log](screenshots/nginx-log.png)
 # Challenges Faced:
 - Issue 1: Nginx page not accessible
   - Reason:
