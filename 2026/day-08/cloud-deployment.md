@@ -17,7 +17,7 @@
 # Connect via SSH :
 - Commands used :
   ssh -i key.pem ubuntu@public ip
-
+- ![ssh connection](screenshots/ssh-connection.png)
 
 # Part 2: Install Docker & Nginx
 - Update Sysyem:
