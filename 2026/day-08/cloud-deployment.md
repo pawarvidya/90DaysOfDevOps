@@ -11,5 +11,24 @@
   Allowed Ports in Security Group :
   SSH 22
   HTTP 80
+
+# Connect via SSH :
+- Commands used :
+  ssh -i key.pem ubuntu@public ip
+
+
+# Part 2: Install Docker & Nginx
+- Update Sysyem:
+  Command: sudo apt-get update
+- Install Docker:
+  Commnad: sudo apt-get install docker.io -y
+- Verify:
+  Command: docker --version
+- Install nginx:
+  Commnad: sudo apt-get nginx -y
+- Verify:
+  Command: systemctl status nginx
+- Check Version :
+  Command:  nginx -v
   
   
