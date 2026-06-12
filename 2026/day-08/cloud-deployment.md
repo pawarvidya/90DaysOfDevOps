@@ -44,6 +44,23 @@
   - cat ~/nginx-logs.txt
 -  Download Log File: 
   - scp -i my-key.pem ubuntu@<public-ip>:~/nginx-logs.txt
+# Challenges Faced:
+- Issue 1: Nginx page not accessible
+  - Reason:
+    - Port 80 was not allowed in Security Group.
+  - Solution:
+    - Added HTTP (80) inbound rule and refreshed browser.
+-  Issue 2: Permission denied while accessing logs
+  - Reason:
+    - Nginx logs require sudo access.
+  - Solution:
+    - sudo tail /var/log/nginx/access.log
+# What I Learned:
+- How to launch an EC2 instance.
+- How to connect to a remote server using SSH.
+- How to install and manage Nginx.
+- How Security Groups control access to cloud servers.
+- How to view and save application logs.
 
   
   
