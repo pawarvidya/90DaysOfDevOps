@@ -10,7 +10,7 @@
 - /var/log : It stores applications and system log files. I observered kern.log , auth.log and syslog
   I would use this when I need to troubleshoots system and application issues.
 - /tmp : it is store temporary files creted by users and applications.
-   I wouls use this when i need to store temporary files like scripts
+   I would use this when i need to store temporary files like scripts
 - /bin : Contains essential Linux commands required for system operation. I observed that git, cat, ls commands are here.
   I would like to use this when i need to know where basic commands are stored.
 - /usr/bin : It containes most user-level executable commands. I observed that vim, grep here.
