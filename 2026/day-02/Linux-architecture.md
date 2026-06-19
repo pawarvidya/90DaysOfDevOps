@@ -18,10 +18,10 @@
 
   # What systemd Does and Why It Matters-
   systemd is the service manager in modern Linux systems. And it is responsible for
--Booting the system
--Starting services
--Restarting failed services
--Managing background processes
+- Booting the system
+- Starting services
+- Restarting failed services
+- Managing background processes
 
 # Linux Process States-
 -Running - Process is working now. e.g Browser or Java app running.
