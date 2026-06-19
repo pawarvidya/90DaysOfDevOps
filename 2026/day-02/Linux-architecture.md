@@ -24,10 +24,10 @@
 - Managing background processes
 
 # Linux Process States-
--Running - Process is working now. e.g Browser or Java app running.
--Sleeping - Process is waiting for something. e.g Waiting for file or network response
--Ready - Process is ready to run. 
--Stopped - Process is paused temporarily.
+- Running - Process is working now. e.g Browser or Java app running.
+- Sleeping - Process is waiting for something. e.g Waiting for file or network response
+- Ready - Process is ready to run. 
+- Stopped - Process is paused temporarily.
 - Zombie - Process work is finished but system still shows its entry.
 - Terminated - Process is fully closed and removed.
 
