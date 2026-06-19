@@ -3,7 +3,7 @@
      I would use this when i need to see overall linux structure.
 - /home : Contains personal directories for normal users. I observed the user like ubuntu is here
   I would this when I need to access user files and documents.
-- /root : Home directory for root user . I observed .bashec and .profile  directories.
+- /root : Home directory for root user . I observed .bashrc and .profile  directories.
 - I would use when am working as root user and need administartor files
 - /etc : it stores configuration files . I obeserved many config files are here like passwd , hostname .
   I would use this when I need to view and modify some configuration files
