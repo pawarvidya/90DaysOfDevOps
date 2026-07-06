@@ -86,5 +86,5 @@ ls -l /opt/team-workspace
 ** What I learned **
 Learned how to create Linux users with home directories and assign passwords.
 Learned how to create groups, add users to multiple groups, and verify memberships using groups and id.
-Learned how to create shared directories, change group ownership using chgrp, set permissions with chmod 775, and test access by switching users with sudo -u.
+Learned how to create shared directories, change group ownership using chgrp, set permissions with chmod 775, and test access by switching users with sudo -u. 
 
