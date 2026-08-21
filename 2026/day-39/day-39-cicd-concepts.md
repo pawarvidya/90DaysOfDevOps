@@ -12,12 +12,12 @@ Imagine 5 developers working on the same project and manually deploying the appl
 
 ### What can go wrong?
 
-* Due to manual deployment there are many errors in the code
-* Its high chance to miss any step during manual deployment.
+* Due to manual deployment there can be many errors in the code
+* There is high chance to missing step during manual deployment.
 * Code may work on one computer but fail on another.
 * Testing may be missed.
-* Configuration can be varries in the environments.
-* Manual deployment takes more time to market.
+* Configuration can be vary between environments.
+* Manual deployment takes more time to release the application.
 * A small mistake can cause deployment failure.
 
 ### What does "It works on my machine" mean?
@@ -35,7 +35,7 @@ CI/CD helps by using an automated and consistent process.
 
 ### How many times can we safely deploy manually?
 
-There is no fixed number.But the more frequently we deploy manually, the greater the chance of human mistakes.
+There is no fixed number. But the more frequently we deploy manually, the greater the chance of human mistakes.
 CI/CD makes frequent deployments easier and safer by automating the process.
 
 ---
@@ -210,16 +210,6 @@ Examples:
 
 ---
 
-# Task 4: CI/CD Pipeline Diagram
-
-### Scenario
-
-A developer pushes code to GitHub. The application is:
-1. Tested
-2. Built into a Docker image
-3. Deployed to a staging server
-
-
 # Task 5: Explore in the Wild
 
 ## Repository
@@ -227,7 +217,7 @@ A developer pushes code to GitHub. The application is:
 I explored the FastAPI open-source repository.
 
 GitHub:
-https://github.com/fastapi/fastapi.git
+https://github.com/fastapi/fastapi
 
 Workflow directory:
 
