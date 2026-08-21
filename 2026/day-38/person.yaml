@@ -1,0 +1,15 @@
+name: Vidya
+role: Devops Engineer
+experience_years: 3
+learning: true
+
+tools:
+  - Docker
+  - Github Actions
+  - Git
+  - Ansible
+  - Terraform
+
+hobbies: [reading, dancing, travelling]
+
+

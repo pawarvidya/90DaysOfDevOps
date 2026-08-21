@@ -1,0 +1,22 @@
+server:
+  name: dev-server
+  ip: 192.165.1.10
+  port: 8080
+
+database:
+  host: localhost
+  name: devops_db 
+  credentials:
+    user: devops_user
+    password: devops_123
+
+
+startup_script_blockstyle: |
+  echo "installing applicationn"
+  systemctl start nginx
+  echo "application started"
+
+startup_script_folded: >
+  echo "installing application"
+  systemctl start nginx
+  echo "application started"  
